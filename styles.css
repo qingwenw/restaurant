@@ -1,0 +1,201 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border:0; 
+}
+
+
+#logo-img{
+	background: no-repeat;
+	width: 120px;
+	height:120px;
+	margin: 10px 15px 10px 0;
+}
+#emoji{
+	background: no-repeat;
+	background-color: black;
+	border-radius: 8px;
+	width: 25px;
+	height: 25px;
+	margin: 1px 1px 5px 0;
+}
+
+.navbar-brand h1{
+	font-family: "Lora", serif;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+    margin-top: 2px;
+ }
+
+ #nav-list{
+ 	margin-top: 25px;
+ 	margin-bottom: 1px;
+ }
+
+ #nav-list a{
+ 	color: #951C49;
+ 	text-align: center;
+ }
+
+ #nav-list a:hover {
+ 	background: white;
+ 	border-radius: 8px;
+ 	margin-bottom: 2px;
+ }
+
+ #nav-list a span {
+ 	font-size: 1.5em;
+ }
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+.icon-bar {
+	border: 1px solid #61122f;
+}
+
+button.navbar-toggle {
+	border: 1px solid #61122f;
+}
+
+button.navbar-toggle:focus {
+	background-color: white;
+}
+
+#call-btn {
+	text-align: center;
+	margin-left: 16px;
+	margin-right: 16px;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: #f6b319;
+
+}
+
+span.glyphicon-earphone{
+	color: purple;
+	font-size: 20px;
+	margin: 8px;
+
+}
+
+span.glyphicon-earphone:hover {
+	color: white;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%  ;
+	margin-bottom: 15px;
+	border: 2px solid #3F0C1F;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+@media (min-width: 1200px) {
+	.jumbotron {
+		background: url("../image/jumbotron.png") no-repeat;
+		height: 800px;
+		box-shadow: 0 0 90px #3F0C1F;
+		border: 2px solid #3F0C1F;
+
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.jumbotron {
+		background: url("../image/jumbotron.png");
+		height: 600px;
+		box-shadow: 0 0 90px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		height: 120px;
+	}
+    
+    .jumbotron {
+    	background: url("../image/jumbotron.png");
+    	height: 600px;
+    	box-shadow: 0 0 90px #3F0C1F;
+    	border: 2px solid #3F0C1F;
+
+}
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+	}
+	.navbar-brand h1 {
+		margin-top: .09px;
+		margin-bottom: 8px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+        margin-top: .5px;
+        font-size: .6em;
+        padding-bottom: 20px;
+	}
+	#emoji{
+		width: 20px;
+		height: 20px;
+	}
+	
+	button.navbar-toggle{
+		margin-top: 50px;
+	}
+
+	#nav-list{
+		position: relative;
+	}
+
+	#bs-example-navbar-collapse-1 a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+    
+   .container .jumbotron {
+   	margin-top: 10px; 
+   	padding: 0;
+   	border-radius: 60px;
+   	box-shadow: 0 0 90px #3F0C1F;
+   	border: 2px solid #3F0C1F;
+   }
+}
